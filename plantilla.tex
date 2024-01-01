@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper,spanish]{book}
+\usepackage{estilo_unir-1}
+
+
+
+%---------------------------
+%título del trabajo y autor
+%---------------------------
+\title{Escribir el título del documento}
+\author{Nombre y Apellidos}
+\date{diaXXX de mesXXX de 2023}
+\profesor{Rodrigo Gil-Merino y Rubio}
+
+%---------------------------
+%marges
+%---------------------------
+%\usepackage[margin=1.9cm]{geometry}
+%---------------------------
+%---------------------------
+%---------------------------
+%---------------------------
+\begin{document}
+\renewcommand{\listfigurename}{Índice de figuras}
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\contentsname}{Índice de contenidos}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla} 
+
+\maketitle
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Resumen}
+{\bf Nota:} En este apartado se introducirá un breve resumen en español del trabajo realizado (extensión máxima: 150 palabras). Este resumen debe incluir el objetivo o propósito de la investigación, la metodología, los resultados y las conclusiones (obviamente, todo muy resumido, pero así se sabe de un vistazo lo que se va uno a encontrar a continuación)
+
+
+{\bf Palabras Clave:} Se deben incluir de 3 a 5 palabras claves en español (pueden ser conceptos formados por más de una palabra)
+
+\chapter{Abstract}
+{\bf Nota:} En este apartado se la versión en inglés del Resumen anterior.
+
+
+{\bf Palabras Clave:} Se deben incluir de 3 a 5 palabras claves en inglés  (pueden ser conceptos formados por más de una palabra)
+
+
+
+
+\mainmatter
+\chapter{Introducción}
+
+En la introducción se debe resumir de forma esquemática pero suficientemente clara lo esencial de cada una de las partes del trabajo. La lectura de esta parte debe contextualizar perfectamente todo el trabajo y debe estar PLAGADA DE REFERENCIAS.
+
+Las referencias NO están para rellenar. Son un TRIBUTO a las personas que hicieron en primer lugar una investigación o aportaron una idea, por tanto, se deben citar LOS TRABAJOS ORIGINALES DE LOS AUTORES, y no un libro de texto donde he visto que hablan de algo.
+
+Es una parte muy importante de la memoria. Las ideas principales a transmitir son la identificación del problema a tratar, la justificación de su importancia, los objetivos generales a grandes rasgos y un adelanto de la contribución que esperas hacer.
+
+A modo de guía, la Introducción debe contener estos tres apartados:
+\begin{itemize}
+\item Motivación / justificación del tema a tratar
+\item Planteamiento del trabajo
+\item Estructura del trabajo
+\end{itemize}
+
+
+ATENCIÓN:  Si queremos citar a alguien, por ejemplo porque vamos a hablar de Latex \citep{lamport1994} o porque, según las ideas de \cite{ackerman2017}, la liga de fútbol inglesa debe tener torneos de desempate, pues tenemos que hacerlo correctamente.
+
+
+
+\chapter{Contexto y estado de la cuestión}
+
+En esta parte debemos demostrar que conocemos lo que se ha hecho en el ámbito que estamos desarrollando el trabajo. En nuestro caso, que se ha buscado la bibliografía y referencias suficientes y que esas ideas se han volcado en el trabajo en la línea de los objetivos que perseguimos o que queremos transmitir.
+
+
+\chapter{Objetivos}
+
+Esquematizar claramente los objetivos del trabajo, las ideas que queremos demostrar. Podemos tener varios tipos de objetivos. Deben ordenarse claramente.
+
+\chapter{Desarrollo del trabajo}
+
+Aquí desarrollaremos nuestro trabajo. Contrastaremos la ideas entre varios autores y, si es posible, con las nuestras. Podemos incluir los subapartados que necesitemos.
+
+\chapter{Conclusiones}
+
+Las conclusiones es otra parte muy IMPORTANTE de la memoria. Deben ser muy clara. Si es posible se pueden itemizar o, mejor, poner un párrafo por idea con un pequeño título ilustrativo.
+
+
+\begin{thebibliography}{a}
+%%\bibitem{etiqueta} \textsc{Autores},\textit{nombre referencia.}Información addicional
+\bibitem[Lamport(1994)]{lamport1994} Lamport, L. (1994) \emph{\LaTeX: a document preparation system}, Addison
+Wesley, Massachusetts, 2nd ed.
+\bibitem[Ackerman(2017)]{ackerman2017} Ackerman, E. (2017) Why the English Premier League Should Have Playoffs.  Balls.ie. 
+\end{thebibliography}
+%\bibliographystyle{plain} 
+%\bibliography{bibliografia}
+
+\appendix
+\chapter{Apendices}
+
+Aquí se pueden poner desarrollos matemáticos engorrosos de los que se puede prescindir en el cuerpo principal de la memoria u otros añadidos que aportan información pero no encajan correctamente en las secciones anteriores.
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
